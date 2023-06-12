@@ -1,4 +1,7 @@
+/*Import Component CSS -- Start*/
 @import url(/css/list.css);
+@import url(/css/icons.css);
+/*Import Component CSS -- End*/
 
 :root {
     --color-primary: #2584ff;
