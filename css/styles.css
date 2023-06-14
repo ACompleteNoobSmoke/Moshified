@@ -2,6 +2,7 @@
 @import url(/css/list.css);
 @import url(/css/icons.css);
 @import url(/css/buttons.css);
+@import url(/css/input.css);
 /*Import Component CSS -- End*/
 
 *, *::after, *::before {
