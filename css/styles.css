@@ -1,7 +1,12 @@
 /*Import Component CSS -- Start*/
 @import url(/css/list.css);
 @import url(/css/icons.css);
+@import url(/css/buttons.css);
 /*Import Component CSS -- End*/
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
 
 :root {
     --color-primary: #2584ff;
