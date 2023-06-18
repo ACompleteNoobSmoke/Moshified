@@ -5,6 +5,7 @@
 @import url(/css/input.css);
 @import url(/css/cards.css);
 @import url(/css/plan.css);
+@import url(/css/media.css);
 /*Import Component CSS -- End*/
 
 *, *::after, *::before {
