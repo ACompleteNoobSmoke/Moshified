@@ -6,6 +6,7 @@
 @import url(/css/cards.css);
 @import url(/css/plan.css);
 @import url(/css/media.css);
+@import url(/css/qoute.css);
 /*Import Component CSS -- End*/
 
 *, *::after, *::before {
@@ -18,6 +19,7 @@
     --color-accent: #ff3400;
     --color-headings: #1b0760;
     --color-body: #918ca4;
+    --color-body-darker: #5c5577;
     --color-border: #ccc;
     --border-radius: 30px;
 }
