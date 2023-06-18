@@ -4,6 +4,7 @@
 @import url(/css/buttons.css);
 @import url(/css/input.css);
 @import url(/css/cards.css);
+@import url(/css/plan.css);
 /*Import Component CSS -- End*/
 
 *, *::after, *::before {
