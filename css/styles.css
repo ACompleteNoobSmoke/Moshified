@@ -7,6 +7,7 @@
 @import url(/css/plan.css);
 @import url(/css/media.css);
 @import url(/css/qoute.css);
+@import url(/css/grid.css);
 /*Import Component CSS -- End*/
 
 *, *::after, *::before {
