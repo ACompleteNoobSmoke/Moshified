@@ -10,6 +10,7 @@
 @import url(/css/grid.css);
 @import url(/css/testimonial.css);
 @import url(/css/callouts.css);
+@import url(/css/collapsible.css);
 /*Import Component CSS -- End*/
 
 *, *::after, *::before {
