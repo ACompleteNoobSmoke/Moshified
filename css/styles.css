@@ -11,6 +11,7 @@
 @import url(/css/testimonial.css);
 @import url(/css/callouts.css);
 @import url(/css/collapsible.css);
+@import url(/css/blocks.css);
 /*Import Component CSS -- End*/
 
 *, *::after, *::before {
@@ -60,6 +61,11 @@ h3 {
 
 p {
     margin-top: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 1024px) {
