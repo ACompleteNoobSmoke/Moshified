@@ -13,6 +13,7 @@
 @import url(/css/collapsible.css);
 @import url(/css/blocks.css);
 @import url(/css/navigation.css);
+@import url(/css/hero.css);
 /*Import Component CSS -- End*/
 
 *, *::after, *::before {
@@ -46,6 +47,7 @@ h2,
 h3 {
     color: var(--color-headings);
     margin-bottom: 1rem;
+    line-height: 1.1;
 }
 
 h1 {
