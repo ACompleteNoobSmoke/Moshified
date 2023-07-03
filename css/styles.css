@@ -14,6 +14,8 @@
 @import url(/css/blocks.css);
 @import url(/css/navigation.css);
 @import url(/css/hero.css);
+@import url(/css/domain-block.css);
+@import url(/css/badge.css);
 /*Import Component CSS -- End*/
 
 *, *::after, *::before {
