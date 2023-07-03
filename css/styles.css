@@ -16,6 +16,7 @@
 @import url(/css/hero.css);
 @import url(/css/domain-block.css);
 @import url(/css/badge.css);
+@import url(/css/plans-block.css);
 /*Import Component CSS -- End*/
 
 *, *::after, *::before {
