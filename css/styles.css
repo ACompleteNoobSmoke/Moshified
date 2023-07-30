@@ -17,6 +17,9 @@
 @import url(/css/domain-block.css);
 @import url(/css/badge.css);
 @import url(/css/plans-block.css);
+@import url(/css/link.css);
+@import url(/css/features.css);
+@import url(/css/showcase-blocks.css);
 /*Import Component CSS -- End*/
 
 *, *::after, *::before {
@@ -32,6 +35,11 @@
     --color-body-darker: #5c5577;
     --color-border: #ccc;
     --border-radius: 30px;
+}
+
+::selection {
+    background: var(--color-primary);
+    color: #fff;
 }
 
 html {
@@ -63,6 +71,7 @@ h2 {
 
 h3 {
     font-size: 3rem;
+    font-weight: 500;
 }
 
 p {

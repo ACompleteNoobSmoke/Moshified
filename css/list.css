@@ -5,7 +5,6 @@
 .list {
     list-style: none;
     padding-left: 0;
-    color: var(--color-headings)
 }
 
 .list--inline  .list__item {
@@ -16,6 +15,7 @@
 .list--tick {
     list-style-image: url(/resources/icons/tick.svg);
     padding-left: 3rem;
+    color: var(--color-headings);
 }
 
 .list--tick .list__item {
