@@ -20,6 +20,7 @@
 @import url(/css/link.css);
 @import url(/css/features.css);
 @import url(/css/showcase-blocks.css);
+@import url(/css/footer.css);
 /*Import Component CSS -- End*/
 
 *, *::after, *::before {

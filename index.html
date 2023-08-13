@@ -16,53 +16,54 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="block">
-       <header class="block__header">
-        <h2>What Our Customers Are Saying</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Vel placeat alias impedit beatae fugiat eum et 
-            commodi sequi laboriosam amet!
-        </p>
-       </header>
-       <div class="container">
-        <div class="card testimonial">
-            <div class="grid grid--1x2">
-                <div class="testimonial__image">
-                    <img 
-                        src="resources/images/testimonial.jpg"
-                        alt="A happy, smiling customer."
-                    />
-                    <span class="icon-container icon-container--accent">
-                        <svg class="icon icon-white icon--small"> 
-                            <use xlink:href="/resources/sprite.svg#quotes"></use>
-                        </svg>
-                    </span>
-                </div>
-                <blockquote class="quote">
-                    <p class="quote__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eaque 
-                        corporis repellat sint itaque labore tenetur tempore 
-                        veritatis asperiores commodi.
-                    </p>
-                    <footer>
-                        <div class="media">
-                            <div class="media__image">
-                                    <svg class="icon icon-primary quote__line"> 
-                                        <use xlink:href="/resources/sprite.svg#line"></use>
-                                    </svg>
-                            </div>
-                            <div class="media__body">
-                                <h3 class="media__title quote__author">John Muir</h3>
-                                <p class="quote__company">ACompleteNoobSmoke LLC</p>
-                            </div>
-                        </div> 
-                    </footer>
-                   </blockquote>
-            </div>
-        </div>
-       </div>
+   <header>
+    <nav class="nav collapsible">
+        <a class="nav__brand" href="/"><img src="/resources/images/logo.svg" alt=""></a>
+        <svg class="icon icon-white nav__toggler"> 
+            <use xlink:href="/resources/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+            <li class="nav__item"><a href="#">Hosting</a></li>
+            <li class="nav__item"><a href="#">VPS</a></li>
+            <li class="nav__item"><a href="#">Domain</a></li>
+            <li class="nav__item"><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+   </header>
+   <section class="block block--dark block--skewed-left hero">
+    <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+            <h1 class="block__heading">Cloud Hosting for Pros</h1>
+            <p class="hero__tagline">Deploy your websites in less than 60 seconds.</p>
+            <a href="" class="btn btn-accent btn-stretched">Get Started</a>
+        </header>
+        <picture>
+            <source type="image/webp" srcset="/resources/images/resize_images/banner.webp 1x, /resources/images/resize_images/banner@2x.webp 2x" />
+            <source type="image/png" srcset="/resources/images/resize_images/banner.png 1x, /resources/images/resize_images/banner@2x.png 2x" />
+           <img class="hero__image" src="/resources/images/banner.png" alt=""> 
+        </picture>    
+    </div>
     </section>
+    <section class="block container block-domain">
+        <header class="block__header">
+         <h2>Starting at $9 per month</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, doloremque.</p>
+        </header>
+        <div class="input-group box-shadow">
+         <input type="text" class="input" placeholder="Enter domain name here...">
+         <button class="btn btn-accent">  <svg class="icon icon-white"> 
+             <use xlink:href="/resources/sprite.svg#search"></use>
+         </svg>Search</button>
+     </div>
+     <ul class="list block-domain__prices">
+         <li><span class="badge badge--secondary">.com $9</span></li>
+         <li>.sg $10</li>
+         <li>.space $11</li>
+         <li>.info $14</li>
+         <li>.net $10</li>
+         <li>.xyz $10</li>
+     </ul>
+     </section>
     <script src="/resources/code/Moshify/js/main.js"></script>
 </body>
 
